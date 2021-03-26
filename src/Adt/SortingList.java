@@ -34,7 +34,7 @@ public class SortingList<T extends Comparable<T>> implements SortedInterface<T> 
         for (int pass = 0; pass < count; pass++) {
             for (int i = 0; i < count; i++) {
                 swap(i, i + 1);
-            }															// trace statement
+            }	// trace statement
         }
     }
 
